@@ -1,8 +1,26 @@
 html, body {
   margin: 0;
   padding: 0;
+  overscroll-behavior-y: contain;
+  overflow-x: hidden;
+  position: relative;
 }
 
 canvas {
   display: block;
-}
+  z-index: -2;
+} 
+
+
+
+p {
+  width: 100%;
+  margin: auto 0;
+  line-height: 100%;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-size: 1.5em;
+ }
