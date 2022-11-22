@@ -1,3 +1,8 @@
+// I took inspiration from here https://editor.p5js.org/lingdong/sketches/RhTlacgWm
+// but I completely rewrote the sketch, since the setup he used didn't use WEBGL and so it was difficult to rotate the sketch with device rotation.
+// It was fun to study how to obtain the same thing in a completely different way. 
+
+
 function preload() {
   bebasNeue = loadFont('BebasNeue-Regular.ttf');
 }
